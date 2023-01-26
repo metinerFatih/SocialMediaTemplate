@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="css/bootstrapFlatly.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-house me-2"></i> Online3ook</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-earth-europe fa-lg d-none d-lg-inline"></i> <span class="d-lg-none">News</span></a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user fa-lg d-none d-lg-inline"></i> <span class="d-lg-none">Profile</span> </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-envelope fa-lg d-none d-lg-inline"></i>
+                            <span class="d-lg-none">Messages</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell fa-lg d-none d-lg-inline"></i>
+                            <span class="d-lg-none">Notifications</span>
+                            <sup>
+                                <span class="badge rounded-pill text-bg-success">3</span>
+                            </sup>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">One new friend request</a></li>
+                            <li><a class="dropdown-item" href="#">John Doe posted on your wall</a></li>
+                            <li><a class="dropdown-item" href="#">Jane Walker likes your photos</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#"><img src="img/e1.jpg" class="rounded-circle d-none d-lg-inline" width="24" height="24" alt="profile photo"> <span class="d-lg-none">My Account</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-3">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shadow p-3 rounded mb-4">
+                    <div class="h5 text-center">My Profile</div>
+                    <div class="text-center py-3 border-bottom">
+                        <img src="img/e1.jpg" class="rounded-circle" alt="My Profile" width="128" height="128">
+                    </div>
+                    <div>
+                        <div class="my-3">
+                            <i class="fa-solid fa-fw fa-info me-3"></i>Designer, UI
+                        </div>
+                        <div class="my-3">
+                            <i class="fa-solid fa-fw  fa-location me-3"></i>London, UK
+                        </div>
+                        <div class="mt-3">
+                            <i class="fa-solid fa-fw  fa-birthday-cake me-3"></i>April 1, 1988
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow rounded mb-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <li class="fa-solid fa-fw fa-circle-notch me-2"></li>My Groups
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <li class="fa-solid fa-fw fa-calendar-check me-2"></li>My Events
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <li class="fa-solid fa-fw fa-photo-film me-2"></li>My Photos
+                        </a>
+                    </div>
+                </div>
+                <div class="shadow p-3 rounded mb-4">
+                    <h5>Interests</h5>
+                    <div>
+                        <span class="badge alert-dark">News</span>
+                        <span class="badge alert-dark">W3Schools</span>
+                        <span class="badge alert-dark">Labels</span>
+                        <span class="badge alert-dark">Games</span>
+                        <span class="badge alert-dark">Friends</span>
+                        <span class="badge alert-dark">Games</span>
+                        <span class="badge alert-dark">Technology</span>
+                        <span class="badge alert-dark">Food</span>
+                        <span class="badge alert-dark">Design</span>
+                        <span class="badge alert-dark">Art</span>
+                        <span class="badge alert-dark">Photos</span>
+                        <span class="badge alert-dark">Nature</span>
+                    </div>
+                </div>
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <h5 class="alert-heading">Hey!</h5>
+                    <p>People are looking at your profile. Find out who.</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="shadow p-3 rounded mb-4">
+                    <p class="text-muted">Social Media Template by Bootstrap</p>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Status: Feeling Blue">
+                    </div>
+                    <button class="btn btn-primary"><i class="fa-solid fa-pen"></i> Post</button>
+                </div>
+
+                <div class="shadow p-3 rounded mb-4">
+                    <div class="border-bottom clearfix mb-2 pb-2">
+                        <span class="float-end text-muted">1 min</span>
+                        <div class="d-flex align-items-center">
+                            <img src="img/e2.jpg" width="60" height="60" alt="avatar" class="rounded-circle me-2">
+                            <h5>John Clay</h5>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum labore, error accusamus fugit minima iste ut quasi a, dolores non illo, sit necessitatibus? Quo hic deleniti ducimus porro a.</p>
+                    <div class="row">
+                        <div class="col-lg-6 mb-3">
+                            <img src="img/m1.jpg" class="w-100" alt="photo-1">
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <img src="img/m2.jpg" class="w-100" alt="photo-2">
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-thumbs-up me-2"></i> Like</a>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-comment"></i>Comment</a>
+                    </div>
+                </div>
+
+                <div class="shadow p-3 rounded mb-4">
+                    <div class="border-bottom clearfix mb-2 pb-2">
+                        <span class="float-end text-muted">16 min</span>
+                        <div class="d-flex align-items-center">
+                            <img src="img/k2.jpg" width="60" height="60" alt="avatar" class="rounded-circle me-2">
+                            <h5>Kim Walker</h5>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum labore, error accusamus fugit minima iste ut quasi a, dolores non illo, sit necessitatibus? Quo hic deleniti ducimus porro a.</p>
+                    <div>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-thumbs-up me-2"></i> Like</a>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-comment"></i>Comment</a>
+                    </div>
+                </div>
+
+                <div class="shadow p-3 rounded mb-4">
+                    <div class="border-bottom clearfix mb-2 pb-2">
+                        <span class="float-end text-muted">24 min</span>
+                        <div class="d-flex align-items-center">
+                            <img src="img/k3.jpg" width="60" height="60" alt="avatar" class="rounded-circle me-2">
+                            <h5>Angele Kerr</h5>
+                        </div>
+                    </div>
+                    <p>Have you seen this?</p>
+                    <div>
+                        <img src="img/m4.jpg" class="w-100 mb-3" alt="photo">
+                    </div>
+                    <div>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-thumbs-up me-2"></i> Like</a>
+                        <a href="#!" class="btn btn-primary"><i class="fa-solid fa-comment"></i>Comment</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-2">
+                <div class="shadow p-3 rounded mb-4 text-center">
+                    <h5>Upcoming Events</h5>
+                    <img src="img/m3.jpg" alt="bridge" class="w-100 mb-3">
+                    <p class="fw-bold">Holiday</p>
+                    <p>Friday 15:00</p>
+                    <a href="#!" class="btn btn-primary w-100">Info</a>
+                </div>
+                <div class="shadow p-3 rounded mb-4 text-center">
+                    <h5>Friend Request</h5>
+                    <img src="img/k1.jpg" alt="avatar" class="w-75 mb-1">
+                    <p class="fw-bold">Jane Doe</p>
+                    <div class="btn-group d-flex">
+                        <a href="#!" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                        <a href="#!" class="btn btn-danger"><i class="fa-solid fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="shadow p-3 rounded mb-4 text-center">
+                    <p class="my-3">ADS</p>
+                </div>
+                <div class="shadow p-3 rounded mb-4 text-center">
+                    <p class="my-4"><i class="fa-solid fa-bug display-6"></i></p>
+                </div>
+            </div>
+    </main>
+
+    <footer class="container-fluid text-light p-0 mt-4">
+        <div class="bg-dark fs-4 px-3 py-4">Footer</div>
+        <div class="bg-primary px-3 py-3">Powered by <a href="#!">Bootstrap</a></div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

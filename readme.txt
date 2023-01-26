@@ -1,0 +1,20 @@
+https://www.w3schools.com/w3css/tryw3css_templates_social.htm
+https://getbootstrap.com/docs/5.2/components/navbar/
+https://bootswatch.com/
+https://getbootstrap.com/docs/5.2/components/list-group/
+https://getbootstrap.com/docs/5.2/components/alerts/#dismissing
+
+3 kadın
+https://picsum.photos/id/64/500
+https://picsum.photos/id/823/500
+https://picsum.photos/id/996/500
+
+2 erkek
+https://picsum.photos/id/1005/500
+https://picsum.photos/id/669/500
+
+4 manzara
+https://picsum.photos/id/71/600/400
+https://picsum.photos/id/77/600/400
+https://picsum.photos/id/84/600/400
+https://picsum.photos/id/110/600/400
